@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>DEN KEV'S</title>
+
+<link href="css/default.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<h1 class="page-title">DENKEV'S SERVICES</h1><hr>
+<div class="header">
+   <table width="658" border="0">
+    <td><ul><a href="car rental.html">Home</a></ul>
+    <td><ul><a href="vehicles.html">Vehicles</a></ul>
+    <td> <ul><a href="contact us.html">Contact us</a></ul>
+    
+  </table>
+  <hr>
+</div><!--header-->
+  <div class="Banner">
+
+
+
+</div><!--header-->
+  <div class="Banner">
+<p>WELCOME TO DENKEV CAR RENTAL SERVICES.</p>
+ <img src="cars/2015-Land-Rover-Range-Rover-Photo-HD.jpg">
+ </body>
+<p>&copy; 2016 Car Rental - All rights reserved | <a href="car rental.html">Car Rental Terms</a> | <a href="car rental.html" target="_blank">Terms of Use</a> | <a href="car rental.html"_blank">Privacy Policy - Your Privacy Rights</a> | <a href="car rental.html">Contact Us</a></p>
+</div><!--footer-copyright-->
+
+    
+
+
+
+	
+</head>
+</html>
