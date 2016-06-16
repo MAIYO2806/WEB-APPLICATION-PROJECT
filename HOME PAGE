@@ -1,0 +1,422 @@
+<!doctype html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>DEN KEV'S</title>
+
+<link href="css/default.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<h1 class="page-title">DENKEV'S SERVICES</h1><hr>
+<div class="header">
+   <table width="658" border="0">
+    <td><ul><a href="car rental.html">Home</a></ul>
+    <td><ul><a href="vehicles.html">Vehicles</a></ul>
+    <td> <ul><a href="contact us.html">Contact us</a></ul>
+    
+  </table>
+  <hr>
+</div><!--header-->
+  <div class="Banner">
+<p>WELCOME TO DENKEV CAR RENTAL SERVICES.</p>
+ <img src="cars/2015-Land-Rover-Range-Rover-Photo-HD.jpg">
+ 
+ </body>
+
+ 
+    </body>
+    </script>
+
+<h3>Rental Request</h3>
+
+<form name="quotation" method="post" action="/vehicles//" class="rental-request-form">
+<p>
+  <label>Vehicle</label>
+  <select name="vehicle" id="vehicle" class="custom" style="width: 200px">
+    <option value='-1'>
+      Please choose a vehicle
+    </option>
+    
+     
+
+    
+
+      <optgroup label="Performance Cars">
+        
+
+
+          <option value="bmw-650i-convertible" data-id="181" data-sipp="LBAR" data-locations="119|">
+            BMW 650i Convertible
+          </option>
+        
+
+
+          <option value="bmw-650i-gran-coupe" data-id="180" data-sipp="UCAR" data-locations="">
+            BMW 650i Gran Coupe
+          </option>
+        
+
+
+          <option value="bmw-m5-sedan" data-id="179" data-sipp="WSAR" data-locations="">
+            BMW M5 Sedan
+          </option>
+        
+
+
+          <option value="jaguar-xjl" data-id="186" data-sipp="WCAR" data-locations="134|150|200|201|">
+            Jaguar XJL
+          </option>
+        
+
+
+          <option value="mercedes-benz-c63-amg" data-id="125" data-sipp="RSAR" data-locations="138|140|183|130|117|112|118|111|119|115|192|135|144|145|202|164|149|136|196|197|110|198|173|">
+            Mercedes-Benz C63 AMG
+          </option>
+        
+
+
+          <option value="mercedes-benz-e63-amg" data-id="124" data-sipp="GSAR" data-locations="168|117|112|118|198|200|">
+            Mercedes-Benz E63 AMG
+          </option>
+        
+
+
+          <option value="mercedes-benz-s550" data-id="171" data-sipp="UXAR" data-locations="134|130|111|118|112|117|135|191|145|200|184|170|">
+            Mercedes-Benz S550
+          </option>
+        
+
+
+          <option value="mercedes-benz-sl550" data-id="165" data-sipp="XJAR" data-locations="168|191|199|">
+            Mercedes-Benz SL550
+          </option>
+        
+
+
+          <option value="porsche-911" data-id="120" data-sipp="CSAR" data-locations="136|130|138|112|117|111|118|144|183|115|164|">
+            Porsche 911
+          </option>
+        
+
+
+          <option value="porsche-boxster" data-id="122" data-sipp="DTAR" data-locations="130|138|183|136|111|112|117|118|144|135|">
+            Porsche Boxster
+          </option>
+        
+
+
+          <option value="porsche-cayman" data-id="182" data-sipp="JEAR" data-locations="138|130|117|115|135|144|145|">
+            Porsche Cayman
+          </option>
+        
+
+
+          <option value="porsche-panamera" data-id="123" data-sipp="XRAR" data-locations="138|130|136|118|110|117|112|111|135|144|191|198|119|">
+            Porsche Panamera
+          </option>
+        
+      </optgroup>
+    
+
+      <optgroup label="SUV">
+        
+
+
+          <option value="land-rover-range-rover-sport" data-id="155" data-sipp="EFAR" data-locations="200|">
+            Land Rover Range Rover Sport
+          </option>
+        
+
+
+          <option value="mercedes-benz-g550" data-id="167" data-sipp="PVAR" data-locations="130|168|111|183|197|118|135|144|117|149|169|">
+            Mercedes-Benz G550
+          </option>
+        
+
+
+          <option value="porsche-cayenne" data-id="121" data-sipp="GFDR" data-locations="130|138|136|111|112|117|118|191|144|196|140|183|116|119|">
+            Porsche Cayenne
+          </option>
+        
+
+
+          <option value="porsche-macan" data-id="194" data-sipp="RFDR" data-locations="111|117|134|130|136|138|196|183|197|168|115|118|198|112|200|144|">
+            Porsche Macan
+          </option>
+        
+      </optgroup>
+    
+
+ </select>
+</p>
+
+<p>
+  <label>Pick-up Location</label>
+  <select name="start_location" id="start_location" class="custom">
+    <option value="-1">
+      Please choose a location
+    </option>
+    <option value="-1"></option>
+  </select>
+
+  </p>
+  <P>
+  <p>
+  <label>Pick-up Date and Time</label>
+
+  <input type='text' name='start_date' id='start_date' size='12' maxlength='100' class='datepicker datepicker_from textfield2' placeholder='Pick-up' />
+
+  <select name="start_time" id="start_time" class="custom start_time_custom" style="width: 100px">
+
+
+
+    <option value="0000">12:00 Midnight</option>
+    <option value="0030">12:30 AM</option>
+    <option value="0100">01:00 AM</option>
+    <option value="0130">01:30 AM</option>
+    <option value="0200">02:00 AM</option>
+    <option value="0230">02:30 AM</option>
+    <option value="0300">03:00 AM</option>
+    <option value="0330">03:30 AM</option>
+    <option value="0400">04:00 AM</option>
+    <option value="0430">04:30 AM</option>
+    <option value="0500">05:00 AM</option>
+    <option value="0530">05:30 AM</option>
+    <option value="0600">06:00 AM</option>
+    <option value="0630">06:30 AM</option>
+    <option value="0700">07:00 AM</option>
+    <option value="0730">07:30 AM</option>
+    <option value="0800">08:00 AM</option>
+    <option value="0830">08:30 AM</option>
+    <option value="0900">09:00 AM</option>
+    <option value="0930">09:30 AM</option>
+    <option selected='selected' value="1000">10:00 AM</option>
+    <option value="1030">10:30 AM</option>
+    <option value="1100">11:00 AM</option>
+    <option value="1130">11:30 AM</option>
+    <option value="1200">12:00 Noon</option>
+    <option value="1230">12:30 PM</option>
+    <option value="1300">01:00 PM</option>
+    <option value="1330">01:30 PM</option>
+    <option value="1400">02:00 PM</option>
+    <option value="1430">02:30 PM</option>
+    <option value="1500">03:00 PM</option>
+    <option value="1530">03:30 PM</option>
+    <option value="1600">04:00 PM</option>
+    <option value="1630">04:30 PM</option>
+    <option value="1700">05:00 PM</option>
+    <option value="1730">05:30 PM</option>
+    <option value="1800">06:00 PM</option>
+    <option value="1830">06:30 PM</option>
+    <option value="1900">07:00 PM</option>
+    <option value="1930">07:30 PM</option>
+    <option value="2000">08:00 PM</option>
+    <option value="2030">08:30 PM</option>
+    <option value="2100">09:00 PM</option>
+    <option value="2130">09:30 PM</option>
+    <option value="2200">10:00 PM</option>
+    <option value="2230">10:30 PM</option>
+    <option value="2300">11:00 PM</option>
+    <option value="2330">11:30 PM</option>
+  </select>
+</p>
+
+
+<p>
+  <label>Return Date and Time</label>
+
+<input type='text' name='end_date' id='end_date' size='12' maxlength='100' class='datepicker datepicker_to textfield2' placeholder='Return' />
+  <select name="end_time" id="end_time" class="custom end_time_custom" style="width: 100px">
+
+
+    <option value="0000">12:00 Midnight</option>
+    <option value="0030">12:30 AM</option>
+    <option value="0100">01:00 AM</option>
+    <option value="0130">01:30 AM</option>
+    <option value="0200">02:00 AM</option>
+    <option value="0230">02:30 AM</option>
+    <option value="0300">03:00 AM</option>
+    <option value="0330">03:30 AM</option>
+    <option value="0400">04:00 AM</option>
+    <option value="0430">04:30 AM</option>
+    <option value="0500">05:00 AM</option>
+    <option value="0530">05:30 AM</option>
+    <option value="0600">06:00 AM</option>
+    <option value="0630">06:30 AM</option>
+    <option value="0700">07:00 AM</option>
+    <option value="0730">07:30 AM</option>
+    <option value="0800">08:00 AM</option>
+    <option value="0830">08:30 AM</option>
+    <option value="0900">09:00 AM</option>
+    <option value="0930">09:30 AM</option>
+    <option selected='selected' value="1000">10:00 AM</option>
+    <option value="1030">10:30 AM</option>
+    <option value="1100">11:00 AM</option>
+    <option value="1130">11:30 AM</option>
+    <option value="1200">12:00 Noon</option>
+    <option value="1230">12:30 PM</option>
+    <option value="1300">01:00 PM</option>
+    <option value="1330">01:30 PM</option>
+    <option value="1400">02:00 PM</option>
+    <option value="1430">02:30 PM</option>
+    <option value="1500">03:00 PM</option>
+    <option value="1530">03:30 PM</option>
+    <option value="1600">04:00 PM</option>
+    <option value="1630">04:30 PM</option>
+    <option value="1700">05:00 PM</option>
+    <option value="1730">05:30 PM</option>
+    <option value="1800">06:00 PM</option>
+    <option value="1830">06:30 PM</option>
+    <option value="1900">07:00 PM</option>
+    <option value="1930">07:30 PM</option>
+    <option value="2000">08:00 PM</option>
+    <option value="2030">08:30 PM</option>
+    <option value="2100">09:00 PM</option>
+    <option value="2130">09:30 PM</option>
+    <option value="2200">10:00 PM</option>
+    <option value="2230">10:30 PM</option>
+    <option value="2300">11:00 PM</option>
+    <option value="2330">11:30 PM</option>
+  </select>
+</p>
+  </P>
+  
+  <script>
+$(document).ready(function() {
+$("a#inline").fancybox({
+		'hideOnContentClick': false,
+		'overlayColor'		:	'#000',
+		'overlayOpacity'	:	0.5,
+		'autoDimensions'	: false,
+		'width'	:	500,
+		'padding': 0
+	});
+});
+</script>
+
+<p class="terms-checkbox">
+	<input type="checkbox" class="checkbox" name="terms" id="terms" value="yes" {save_info} /> I agree to the <a href="#terms-popup" id="inline">Car Rental Terms</a></p>
+<p>
+
+<div style="display:none;">
+<div id="terms-popup" style="padding: 20px;">
+
+
+
+<h1>Rental Qualifications</h1>
+
+<p>
+	<strong>Customers MUST present ALL of the following (*):</strong></p>
+<p>
+	1. A valid national or foreign country issued driver license;</p>
+<p>
+	2. A valid credit card, with sufficient credit available, embossed with the same name as the driver license; DEBIT CARDS ARE NOT ACCEPTED as a FOP (Form of Payment);</p>
+<p>
+	3. An additional credit or debit card embossed with the same name as the driver license.</p>
+<p>
+	4. One (1) of the following forms of government issued ID, in the same name as the driver license &amp; credit card:</p>
+<ul>
+	<li>
+		Passport - Kenyan or Foreign Country Issued</li>
+	<li>
+		Kenya Military Identification Card</li>
+	<li>
+		Foreign Driver License Provided - must be accompanied by a passport,</li>
+</ul>
+<p>
+	<strong>NOTE</strong>: If a form of government issued ID is not presented, Devkev may consider the acceptance of an alternate non-government form of ID. Acceptability will be determined when the ID is presented at the time of rental. Devkev reserves the right to reject the ID as acceptable for qualification at its sole discretion and without explanation. If Hertz management rejects the ID, an alternate vehicle model will be offered for rental (pending standard rental qualification). An example of ID the Manager may accept includes a photo store member card (Costco, Sam&#39;s, etc.), a photo employee ID card, etc.</p>
+<p>
+	5. A return airline ticket or itinerary in the same name as the driver&#39;s license. If the customer does not have a paper copy, the manager will ask the customer to email a copy (e-ticket or itinerary is acceptable), for Hertz record to accompany the above forms of identification.</p>
+<p>
+	If unable to email the electronic documents to the Location Manager, at management&#39;s discretion, it may be acceptable to view and make note of the travel information provided along with the required photo copied identification mentioned above.</p>
+<p>
+	&reg; Reg. Ke. Pat. Off. &copy; 2015 Devkev System, Inc.</p>
+
+
+
+</div><!--terms-popup-->
+</div>
+
+
+
+
+
+<div class="grid_8">
+</div><!--grid_8-->
+
+<div class="clear"></div>
+
+
+    <h3>Featured Vehicles</h3>
+
+    
+
+      <div class="grid_3 banner alpha">
+
+        <a href="/vehicles/porsche-911">
+                      
+              
+                <img src="cars/transparent-image-frame_180_120_cacheuploadsporsche-911_v2_180_75_s.png_s_c1.png" />
+              
+            
+                    <h2>Porsche 911</h2>
+        </a>
+        
+        </div><!--grid_3-->
+
+    
+
+      <div class="grid_3 banner ">
+      
+        <a href="/vehicles/jaguar-xjl/">
+                      
+              
+                <img src="cars/transparent-image-frame_180_120_cacheuploadsJaguar-XJL-Large-trans_180_76_s.png_s_c1.png"/>
+              
+            
+                    <h2>Jaguar XJL</h2>
+        </a>
+         </div><!--grid_3-->
+
+    
+
+      <div class="grid_3 banner ">
+        
+        <a href="/vehicles/mercedes-benz-g550">
+                      
+              
+                <img src="cars/transparent-image-frame_180_120_cacheuploadsg550_180_97_s.png_s_c1.png" />
+              
+            
+                    <h2>Mercedes-Benz G550</h2>
+        </a>
+         </div><!--grid_3-->
+
+    
+
+      <div class="grid_3 banner ">
+        
+        <a href="/vehicles/porsche-macan">
+                      
+              
+                <img src="cars/transparent-image-frame_180_120_cacheuploadsPorsche-Macan-2015-small_180_91_s.png_s_c1.png"/>
+              
+            
+                    <h2>Porsche Macan</h2>
+        </a>
+         </div><!--grid_3-->
+          <p></p>
+         <div class="grid_9">
+       
+<p>&copy; 2016 Car Rental - All rights reserved | <a href="car rental.html">Car Rental Terms</a> | <a href="car rental.html" target="_blank">Terms of Use</a> | <a href=""_blank">Privacy Policy - Your Privacy Rights</a> | <a href="car rental.html">Contact Us</a></p>
+</div><!--footer-copyright-->
+
+    
+
+
+
+	
+</head>
+</html>
