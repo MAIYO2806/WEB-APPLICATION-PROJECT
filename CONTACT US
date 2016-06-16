@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="icon" type="image/ico" href=“…/favicon.ico"/>
+    <title>
+        DEN KEV'S
+    </title>
+	<link rel="stylesheet" href="file:///E|/STRATHMORE/2ND YEAR/IST SEM/WEB APPLICATION DESIGN/Activity 1/css/default.css"  />
+	<link href="css/default.css" rel="stylesheet" type="text/css">
+</head>
+
+  <body>
+<h1 class="page-title">DENKEV'S SERVICES</h1><hr>
+<div class="header">
+   <table width="658" border="0">
+    <td><ul><a href="car rental.html">Home</a></ul>
+    <td><ul><a href="vehicles.html">Vehicles</a></ul>
+    <td> <ul><a href="contact us.html">Contact us</a></ul>
+    
+  </table>
+  <hr>
+</div><!--header-->
+<P>
+For any inquiries please contact us using the form  and one of our client concierges will contact you as soon as possible to arrange your driving experience.
+</P>
+<script type="text/javascript"> function sub()
+  { 
+  if(document.getElementById("t1").value == "")
+   alert
+   ("Please enter your name"); 
+   else if(document.getElementById("t2").value == "")
+    alert
+	("Please enter an email");
+	 else if(document.getElementById("t3").value =="")  
+	alert("Please enter your Inquiry");
+	   else alert("Form has been submitted");
+	    }
+</script>
+ <form>
+ <form>
+<p align="center">
+User Name:<input type="text" id="t1"><br><br>
+E-mail address:<input type="text" id="t2"><br><br>
+Inquiry:<input type="text" id="t3"><br><br>
+Address:<textarea rows="2" cols="25" id="t4"></textarea><br><br>
+<input type="button" value="Submit" onclick="sub()">
+<input type="reset" value="Clear All">
+</p>
+
+</body>
+</html>
